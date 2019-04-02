@@ -112,7 +112,7 @@ iframe {
 
 /* Main content styles */
 #content{
-  width: 580px;
+  width: 480px;
   background-color: #fff;
   padding: 0px;
   float: left; 
@@ -146,17 +146,22 @@ iframe {
 #sidebar2{
   width: 170px;
   background-color: #eee;
-  padding: 7px;	
+  padding: 1px;	
   float: left;
   margin-right: 0px;
-  margin-left: 0px;
-  margin-top: 70px;
+  margin-left: 70px;
+  margin-top: 130px;
   border: solid #FFD700 1px;
   border-radius: 12px;
   overflow: hidden;
   font-size: 12px;
 }
-
+#sidebar2 p {
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0;
+}
+  
 /* Footer styles */
 #footer{
   width: 100%;
